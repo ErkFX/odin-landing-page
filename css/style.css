@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -95,7 +99,7 @@ a {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 0 0 100px 0;
 }
 
 .info-header-text {
@@ -109,7 +113,7 @@ a {
 }
 
 .info-images {
-    margin: -32px 0 100px 0;
+    margin: -32px 0 0px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,9 +128,48 @@ a {
     border-radius: 6px;
 }
 
-.info-image-text {
-    margin: 0;
+.info-image-text p {
+    margin: 0 auto;
     width: 150px;
     text-align: center;
     color: #1F2937;
+}
+
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    padding: 100px 0;
+}
+
+.quote p,
+.quote-credit p {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-section {
+    padding: 100px 300px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
 }
