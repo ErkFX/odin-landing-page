@@ -13,3 +13,5 @@ I learned a lot of important things during this project such as:
 4. The importance of when to use margins and padding.
 
 Overall this project took me around 5 hours to complete.
+
+Check it out here: https://erkfx.github.io/odin-landing-page/
